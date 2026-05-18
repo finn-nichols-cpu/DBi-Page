@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "SFMono";
+  src: url("/fonts/sf-mono-regular.woff2") format("woff2"),
+       url("/fonts/sf-mono-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .text-body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(0, 255, 0);
+  font-family: "SFMono", monospace;
+}
+.background {
+  background-color: rgb(10, 10, 10);
 }
