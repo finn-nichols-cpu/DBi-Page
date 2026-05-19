@@ -1,3 +1,3 @@
-This is a webpage put together by Finn and Benji not gus.
+This is a webpage put together by Finn and Benji, not gus tho.
 
-Talk overhat you're gonna commit with the other before committing
+Talk over what you're gonna commit with the other before committing or doing a push to MAIN branch
