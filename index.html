@@ -18,21 +18,53 @@
       }
 
       body {
-        background-color: #000000 !important;
-        color: #00ff00 !important;
+        background-color: #000 !important;
+        color: #0f0 !important;
+        border: 2px solid #0f0;
         font-family: "SFMono", monospace;
         margin: 20px;
+        overflow-wrap: break-word;
+        white-space: normal;
+        padding: 10px;
       }
 
-      h1, h3 {
-        color: #00ff00 !important;
+      .box {
+        background-color: #000 !important;
+        color: #0f0 !important;
+        border: 2px solid #0f0;
+        font-family: "SFMono", monospace;
+        margin: 20px;
+        overflow-wrap: break-word;
+        white-space: normal;
+        padding: 20px;
+        flex: 1;
+      }
+
+      h1,
+      h3 {
+        color: #0f0 !important;
         font-family: "SFMono", monospace;
       }
     </style>
   </head>
   <body>
     <h1>The Impacts of Tech on the Environment</h1>
-    <h3>"We want to educate people on the impact of tech on the environment"</h3>
-    This is our mission statement. We want to spread this message to people to spread our campaign to stop E-waste.
+    <h3>
+      "We want to educate people on the impact of tech on the environment"
+    </h3>
+    This is our mission statement. We want to spread this message to people to
+    spread our campaign to stop E-waste
+    <div style="display: flex; width: 100%">
+      <div class="box" style="height: 400px">
+        The Problem: The mining for the resources to make electronics effects
+        the environment because it costs a lot of earth resources. It also
+        causes ground water contamination.
+      </div>
+      <div class="box" style="height: 400px">
+        The Solution: We are going to educate people so they are more conscious
+        about buying unnecessary tech. We belive this will work because they
+        will be educated about the problems caused.
+      </div>
+    </div>
   </body>
 </html>
